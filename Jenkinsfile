@@ -4,7 +4,7 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('NORAH-aws-secret-key-id ')
         AWS_SECRET_ACCESS_KEY = credentials('NORAH-aws-secret-access-key')
         ARTIFACT_NAME = 'NORAH-belt2d2-artifacts-123456.jar'
-        AWS_S3_BUCKET = 'jenkinsbucket-devops'
+        AWS_S3_BUCKET = 'jenkinsbucket-dev'
         AWS_EB_APP_NAME = 'test-day-2'
         AWS_EB_ENVIRONMENT = 'Testday2-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
